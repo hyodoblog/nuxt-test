@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-test",
+  "version": "1.0.0",
+  "description": "My kickass Nuxt.js project",
+  "author": "yusei-hyodo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@uppy/core": "^1.7.1",
+    "@uppy/dashboard": "^1.5.2",
+    "@uppy/webcam": "^1.5.1",
+    "@uppy/xhr-upload": "^1.4.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.10.3"
+  }
+}
