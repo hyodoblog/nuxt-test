@@ -36,11 +36,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    // Simple usage
-    '@nuxtjs/vuetify',
-
-    // With options
-    ['@nuxtjs/vuetify', { /* module options */ }]
+    '@nuxtjs/vuetify'
   ],
   /*
   ** Nuxt.js modules
@@ -49,8 +45,9 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
+    // // Doc: https://github.com/nuxt-community/dotenv-module
+    '@nuxtjs/dotenv'
+    // 'nuxt-fontawesome'
   ],
   /*
   ** Axios module configuration
@@ -68,7 +65,7 @@ export default {
     extend(config, ctx) {
     }
   },
-  workbox: {
-    dev: true, //開発環境でもPWA
-  }
+  // workbox: {
+  //   dev: true, //開発環境でもPWA
+  // }
 }

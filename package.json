@@ -14,13 +14,13 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/vuetify": "^1.0.0",
     "@uppy/core": "^1.7.1",
     "@uppy/dashboard": "^1.5.2",
     "@uppy/webcam": "^1.5.1",
     "@uppy/xhr-upload": "^1.4.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0"
   },
-  "devDependencies": {
-    "@nuxtjs/vuetify": "^1.10.3"
-  }
+  "devDependencies": {}
 }
